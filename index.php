@@ -5,12 +5,7 @@
 	$conn=mysql_connect(dbhost, dbuser, dbpwd)
 		or die('Connessione al server MySQL fallita!');
 	mysql_select_db(dbname);
-	/* $query="INSERT INTO Alimentari (Costo, Data) VALUES(1000,NOW())";
-	mysql_query($query, $conn)
-		or die("Query fallita! " . mysql_error());
-	echo $query; */
-		 
-	 
+	
 	 ?>
 	 
 <! DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
